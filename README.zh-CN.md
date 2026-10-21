@@ -2,12 +2,12 @@
   <img src="docs/banner.svg" alt="dsh-purge" width="720">
 </p>
 
-<h1 align="center">⚔️ DeepSeek Harness 网络安全红队工具（dsh-purge）</h1>
+<h1 align="center">⚔️ dsh-purge —— 自用攻防测试工具（网络安全检查）</h1>
 
 <p align="center"><strong>Version 1.2.4</strong></p>
 
 <p align="center">
-  <em>DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分</em>
+  <em>自用攻防测试工具，用来检查网络安全：安全监察面板 + 红队演练台 + 按模型切换的提示词规则。只跑在本人这套 Harness 和本人有权测试的范围内。署名要求见下文。</em>
 </p>
 
 <p align="center">
@@ -29,6 +29,8 @@
   <a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a>
 </p>
 
+> **本仓库定位。** 自用攻防测试工具，用来检查网络安全：评估本人这套 DeepSeek Harness 的策略与权限边界、在离线靶标或已获授权的范围内做攻防演练、按模型切换提示词规则。不是公网扫描器，也不是打第三方系统的攻击工具。
+
 > **维护状态。** 原作者 YuJunZhiXue 已公告暂停更新（不再发版、暂不收 issue / PR、不保证跟进新版 dsh）。本仓库 `y2ambition-ai/dsh-purge` 是原作者内容的全量镜像，自 **2026-10-21** 起由 y2ambition-ai 接管维护：跟进新版 dsh 修锚点、维护兼容检查；原作者署名、MIT 许可与非盈利条款全部保留。上游恢复维护时以本 README 通知为准。
 >
 > **官方 Web 和官方桌面端都支持。** 官方 `dsh web` 用 profile `web`；官方桌面 EXE（DeepSeek Harness **0.2.1-rc.2**，0.2.0 的锚点保留）用 profile `desktop`。两边分开安装、分开点「应用」。更早的 dsh 用对应的老版本插件。社区桌面端不维护。
@@ -42,7 +44,6 @@
 - [赞助](#sponsor)
 - [介绍](#介绍)
 - [署名要求](#署名要求)
-- [违规商用公示](#违规商用公示)
 - [适配范围](#适配范围)
 - [安装](#安装)
 - [界面](#界面预览)
@@ -100,27 +101,6 @@ Harness 不只是把问题交给模型。它还会在运行时改提示词、审
 **借用本项目的名称、思路、代码或提示词，必须署名，并写明来源仓库：** [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge)。
 
 不署名、隐瞒来源、改头换面据为己有，作者将依法追究责任。
-
----
-
-## 违规商用公示
-
-抖音直播账号 **「老张的ai」**（直播间显示 **「老张AI讲堂」**）把本仓库当收费货卖：直播间问价、当场收钱，不署名，也不守上面的非盈利条款。作者人就在场，对方照收。
-
-本项目免费、非盈利。拿它卖课、卖插件、卖 token、倒卖，许可当场作废，作者保留追究权利。
-
-2026-10-12 直播记录：
-
-<p align="center">
-  <img src="docs/notice/laozhang-live-1.jpg" width="360" alt="老张的ai 直播问价">
-  <img src="docs/notice/laozhang-live-2.jpg" width="360" alt="老张的ai 直播收钱">
-</p>
-
-对方微信名 **「老张的ai科技」**，直播间观众榜同号。被问到是不是本仓库开发者时，自称「老厉害了」；作者当场表示要投诉。
-
-<p align="center">
-  <img src="docs/notice/laozhang-wechat-1.jpg" width="420" alt="老张的ai科技 微信自称开发者">
-</p>
 
 ---
 

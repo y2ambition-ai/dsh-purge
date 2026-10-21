@@ -2,12 +2,12 @@
   <img src="docs/banner.svg" alt="dsh-purge" width="720">
 </p>
 
-<h1 align="center">⚔️ DeepSeek Harness cybersecurity red-team tool (dsh-purge)</h1>
+<h1 align="center">⚔️ dsh-purge — self-use attack/defense testing tool for checking your own network security</h1>
 
 <p align="center"><strong>Version 1.2.4</strong></p>
 
 <p align="center">
-  <em>DeepSeek Harness jailbreak: every model, swap prompts per model. Default prompt for 小码酱. Please star ⭐ If you build on this, see Attribution required.</em>
+  <em>Self-use attack/defense testing tool for checking network security: a DeepSeek Harness plugin with a security-review dock, a red-team drill bench, and switchable prompt rules per model. For your own install and ranges you are authorized to test. If you build on this, see Attribution required.</em>
 </p>
 
 <p align="center">
@@ -29,6 +29,8 @@
   <a href="README.md">English</a> | <a href="README.zh-CN.md">中文</a>
 </p>
 
+> **What this is for.** A self-use attack/defense testing tool for checking network security: evaluate the policy and permission boundary of your own DeepSeek Harness, run attack/defense drills on offline targets or ranges you are authorized to test, and keep prompt rules switchable per model. It is not a public scanner and not an attack kit against third-party systems.
+
 > **Maintenance status.** The original author YuJunZhiXue has paused releases (no new versions, issues / PRs not taken, new dsh versions not guaranteed). This repository, `y2ambition-ai/dsh-purge`, is a full mirror of the original content. Since **2026-10-21** it is maintained by y2ambition-ai: new dsh versions are tracked, drifted patch anchors are fixed, and `dsh-purge --check` reports host compatibility. Original attribution, the MIT license, and the non-commercial terms are retained. If upstream resumes, this README will say so.
 >
 > **Official Web and the official desktop app are both supported.** Official `dsh web` uses profile `web`. The official desktop EXE (DeepSeek Harness **0.2.1-rc.2**; 0.2.0 anchors are retained) uses profile `desktop`. Install and Apply them separately. Older dsh builds need the matching older plugin. Community Desktop is not maintained.
@@ -42,7 +44,6 @@
 - [Sponsor](#sponsor)
 - [What this is](#what-this-is)
 - [Attribution required](#attribution-required)
-- [Unauthorized commercial use](#unauthorized-commercial-use)
 - [Supported hosts](#supported-hosts)
 - [Install](#install)
 - [Preview](#preview)
@@ -96,27 +97,6 @@ It only touches the official `@deepseek-ai` packages and local config on the use
 **If you borrow this project's name, ideas, code, or prompts, you must credit the author and name the source repository:** [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge).
 
 Using them without attribution, hiding the source, or passing them off as your own will be pursued.
-
----
-
-## Unauthorized commercial use
-
-Douyin live account **「老张的ai」** (room name **「老张AI讲堂」**) is selling this repository: taking fees in the live room, no attribution, and ignoring the non-profit rule above. The author was in the room. They still charged.
-
-This project is free and non-profit. Selling courses, the plugin, tokens, or reselling it voids the license on the spot. The author reserves the right to pursue it.
-
-Recorded 2026-10-12:
-
-<p align="center">
-  <img src="docs/notice/laozhang-live-1.jpg" width="360" alt="老张的ai live asking for a fee">
-  <img src="docs/notice/laozhang-live-2.jpg" width="360" alt="老张的ai live charging money">
-</p>
-
-WeChat name **「老张的ai科技」**, same handle as the live-room viewer board. Asked if they were this repo's developer, they said they were. The author said they would report it.
-
-<p align="center">
-  <img src="docs/notice/laozhang-wechat-1.jpg" width="420" alt="老张的ai科技 WeChat claiming to be the developer">
-</p>
 
 ---
 
