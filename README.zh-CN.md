@@ -4,7 +4,7 @@
 
 <h1 align="center">⚔️ dsh-purge —— 自用攻防测试工具（网络安全检查）</h1>
 
-<p align="center"><strong>Version 1.2.4</strong></p>
+<p align="center"><strong>Version 1.2.5</strong></p>
 
 <p align="center">
   <em>自用攻防测试工具，用来检查网络安全：安全监察面板 + 红队演练台 + 按模型切换的提示词规则。只跑在本人这套 Harness 和本人有权测试的范围内。署名要求见下文。</em>

@@ -1,3 +1,17 @@
+# 1.2.5
+
+## 中文
+
+- 默认值改为 `autoApplyOnStart: true`：宿主启动时自动核对补丁，缺失即重打并自愈重启，不再需要每次手动点「应用」。
+- 适用边界：dsh 版本未变、宿主文件被局部覆盖（npm 重装依赖、profile 重写）时全自动；安装包把 `app.asar` 重新封回来时仍需手动「应用」一次。
+- `autoUpdateOnStart` 保持 `false`：插件目录可能本身就是 git 工作区，自动更新会覆盖本地改动。
+
+## English
+
+- Default `autoApplyOnStart` is now `true`: on host boot the plugin verifies and re-applies missing patches, then self-heals with a restart, so a manual Apply is no longer needed every time.
+- Scope: fully automatic while the dsh version is unchanged and host files were only partially overwritten (npm reinstall, profile rewrite). A reinstall that re-seals `app.asar` still needs one manual Apply.
+- `autoUpdateOnStart` stays `false`: the plugin directory may itself be a git working copy, and auto-update would overwrite local changes.
+
 # 1.2.4
 
 ## 中文

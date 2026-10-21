@@ -4,7 +4,7 @@
 
 <h1 align="center">⚔️ dsh-purge — self-use attack/defense testing tool for checking your own network security</h1>
 
-<p align="center"><strong>Version 1.2.4</strong></p>
+<p align="center"><strong>Version 1.2.5</strong></p>
 
 <p align="center">
   <em>Self-use attack/defense testing tool for checking network security: a DeepSeek Harness plugin with a security-review dock, a red-team drill bench, and switchable prompt rules per model. For your own install and ranges you are authorized to test. If you build on this, see Attribution required.</em>

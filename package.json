@@ -1,6 +1,6 @@
 {
   "name": "dsh-purge",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "自用攻防测试工具 · 网络安全检查：DeepSeek Harness 插件，提供安全监察面板、红队演练台与按模型切换的提示词规则，只用于本人环境与授权范围。Self-use attack/defense testing tool for checking network security. 原作者 YuJunZhiXue；y2ambition-ai 维护。",
   "type": "module",
   "main": "lib/index.js",

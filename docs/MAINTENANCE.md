@@ -154,7 +154,7 @@ cd "$HOME/.dsh/profiles/desktop" && pnpm add "link:$HOME/.dsh/plugins/dsh-purge"
 
 bundle 配置通过 profile 重新组合加载。1.2.1 → 1.2.4 的旧 guard 包装保留在进程内，
 必须完整重启一次，不能用 HMR 宣称全部生效。插件在已启用 profile 中自动加载，
-无需额外参数。默认 `autoApplyOnStart: false`：自动加载提示词不等于自动改写宿主。
+无需额外参数。默认 `autoApplyOnStart: true`：启动时核对宿主，补丁缺失自动重打并自愈重启；`app.asar` 重新封装时仍等用户点「应用」。
 
 首次安装、宿主升级或磁盘仍有 `app.asar` 时，在会话标题旁点
 **dsh-purge → 清洗 → 应用**；这会改写宿主并重启。普通安装指令不授权助手代点；
